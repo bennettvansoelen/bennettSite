@@ -6,3 +6,17 @@
     width: 250px;
     height: auto;
 }
+
+figure {
+    align-content: left;
+}
+
+ul {
+    style= "list-style-type: none;"
+}
+
+li {
+    display: inline;
+    padding-right: 15px;
+    font-size: 25px;
+}
