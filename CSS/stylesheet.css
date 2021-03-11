@@ -12,11 +12,23 @@ figure {
 }
 
 ul {
-    style= "list-style-type: none;"
+    style: "list-style-type: none;"
 }
 
 li {
     display: inline;
     padding-right: 15px;
-    font-size: 25px;
+    font-size: 20px;
+}
+
+table {
+    width: auto;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top:0px;
+}
+
+#content {
+    margin: 25px;
+    border-style: solid;
 }
