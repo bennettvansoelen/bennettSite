@@ -1,9 +1,15 @@
 .header {
     text-align: center;
+    background-color: #F2B138;
+    border-top-color: #F2B138;
+}
+
+body {
+    background-color: #A1A5A6;
 }
 
 #ballin {
-    width: 250px;
+    width: 350px;
     height: auto;
 }
 
@@ -45,9 +51,14 @@ li {
     margin: 75px;
     padding: 25px;
     border-style: solid;
+    border-color: #003F63;
 }
 
 #fest {
     width: 250px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    display: inline;
 }
