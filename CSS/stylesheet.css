@@ -8,7 +8,9 @@
 }
 
 figure {
-    align-content: left;
+    margin-left: 0px;
+    margin: auto;
+    padding: 0px;
 }
 
 ul {
@@ -21,14 +23,31 @@ li {
     font-size: 20px;
 }
 
-table {
+#friends {
     width: auto;
     margin-right: 0px;
     margin-left: auto;
     margin-top:0px;
+    margin-bottom: auto;
+    padding: 0px;
+}
+#tableHeader {
+    text-align:right;
+    width: auto;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top:0px;
+    align-content: top;
+    padding: 10px;
 }
 
-#content {
-    margin: 25px;
+.content {
+    margin: 75px;
+    padding: 25px;
     border-style: solid;
+}
+
+#fest {
+    width: 250px;
+    height: auto;
 }
