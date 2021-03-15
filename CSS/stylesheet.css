@@ -24,7 +24,7 @@ figure {
     display:block;
 }
 
-#navbar {
+li.navbar {
     display: inline;
     padding-right: 15px;
     font-size: 20px;
@@ -76,7 +76,6 @@ tr {
     margin-right: auto;
     margin-left: auto;
     margin-top:0px;
-    align-content: top;
     padding: 10px;
 }
 
