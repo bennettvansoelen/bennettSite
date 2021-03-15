@@ -2,6 +2,8 @@
     text-align: center;
     background-color: #F2B138;
     border-top-color: #F2B138;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -26,7 +28,7 @@ ul {
     style: "list-style-type: none;"
 }
 
-li {
+#navbar {
     display: inline;
     padding-right: 15px;
     font-size: 20px;
@@ -46,6 +48,15 @@ td{
 th{
     text-align: left;
 }
+
+table {
+    border-collapse: collapse;
+  }
+  tr { 
+    border: solid;
+    border-width: 1px 0;
+  }
+
 #tableHeader {
     text-align:center;
     width: auto;
@@ -100,6 +111,10 @@ th{
       text-align: center;
   }
 
-  .figcaption {
+  .caption {
       text-align:right;
+      justify-content: right;
+      display: inline-block;
+      padding-left: 122px;
+      padding-right: 0px;
   }
