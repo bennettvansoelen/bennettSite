@@ -24,10 +24,6 @@ figure {
     display:block;
 }
 
-ul {
-    style: "list-style-type: none;"
-}
-
 #navbar {
     display: inline;
     padding-right: 15px;
@@ -42,6 +38,23 @@ ul {
     margin-bottom: auto;
     padding: 0px;
 }
+.favList {
+    margin-right:auto;
+    margin-left: auto;
+    width: auto;
+    margin-bottom: auto;
+    text-align: center;
+    padding-top: 15px;
+
+}
+#sportList{
+    margin-right:auto;
+    margin-left: auto;
+    width: auto;
+    margin-bottom: auto;
+    display: table;
+    text-align: left;
+}
 td{
     padding-right: 15px;
 }
@@ -52,7 +65,7 @@ th{
 table {
     border-collapse: collapse;
   }
-  tr { 
+tr { 
     border: solid;
     border-width: 1px 0;
   }
