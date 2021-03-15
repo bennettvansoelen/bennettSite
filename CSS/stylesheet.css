@@ -11,12 +11,15 @@ body {
 #ballin {
     width: 350px;
     height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 figure {
-    margin-left: 0px;
-    margin: auto;
-    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
 }
 
 ul {
@@ -31,16 +34,22 @@ li {
 
 #friends {
     width: auto;
-    margin-right: 0px;
+    margin-right: auto;
     margin-left: auto;
     margin-top:0px;
     margin-bottom: auto;
     padding: 0px;
 }
+td{
+    padding-right: 15px;
+}
+th{
+    text-align: left;
+}
 #tableHeader {
-    text-align:right;
+    text-align:center;
     width: auto;
-    margin-right: 0px;
+    margin-right: auto;
     margin-left: auto;
     margin-top:0px;
     align-content: top;
@@ -53,12 +62,44 @@ li {
     border-style: solid;
     border-color: #003F63;
 }
+#bennettContent {
+    margin: 75px;
+    padding: 25px;
+    border-style: solid;
+    border-color: #003F63;
+}
 
 #fest {
-    width: 250px;
+    width: 350px;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right:auto;
-    display: inline;
+
 }
+
+.column {
+    float:left;
+    width: 49%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .row{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .img{
+      display:inline-block;
+      text-align: center;
+  }
+
+  .figcaption {
+      text-align:right;
+  }
